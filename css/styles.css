@@ -1,0 +1,50 @@
+html{min-height: 100%;height: 100%;font-size: 100%;}
+*{box-sizing: border-box;}
+.clear {clear: both;}
+body {min-width: 320px;min-height: 100%;height: 100%;margin: 0;padding: 0;font-family: 'Open Sans', sans-serif;font-size: 16px;line-height: 1.25;color: #121212;}
+img{max-width: 100%;margin: 0 0 12px;border: 0;}
+
+h1, h2, h3, h4 {margin: 0 0 20px;padding: 0;line-height: 1.3;color: #222222;clear: both;}
+p {margin: 0 0 15px;}
+
+.header{padding: 0px 20px 10px; background: #3870ff;width:100%;height: 60px;display: table}
+.header h1{float: left;margin: 0;padding-top: 10px;color:#fff}
+.header h1 a{color:#fff;text-decoration: none}
+.top_menu{float: right;display: table;padding-top: 6px}
+.menu_item{display: block;display: inline-block;vertical-align: middle;text-decoration: none; font-size: 20px;font-weight: bolder;padding: 10px;color:#fff}
+.menu_item:hover{background: #fff;color:#3870ff;transition: color 500ms ease-in-out, border-color 500ms ease-in-out, background 500ms ease-in-out;}
+.content_part{margin: 45px 20px 60px}
+
+.filter_form{width: auto;display: inline-block; margin-right: 20px}
+.filter_form select{min-width: 144px; background-color: #ffffff;border: 2px solid #3870ff;display: block;width: 100%;margin-bottom: 15px;padding: 2px 3px;cursor: pointer}
+
+.submit_button, .blue_link{display: block;text-align: center;margin: 14px 0;padding: 5px 47px;font-weight:  bold;font-size: 14px;text-transform: uppercase;color: #1e6beb;background: #edeef1;border: 2px solid #3870ff;border-radius: 10px;cursor: pointer;appearance: none;-webkit-appearance: none;-moz-appearance: none;outline: none;}
+.submit_button:hover, .blue_link:hover{color: #ffffff;border-color: #1e6beb;background: #1e6beb;transition: color 500ms ease-in-out, border-color 500ms ease-in-out, background 500ms ease-in-out;}
+.author_list .submit_button{width:200px!important;}
+.blue_link{width: 250px;text-decoration: none;text-align: center}
+.inner_form .blue_link{width:150px;margin: 30px 0}
+.filter_form .filter_title{font-weight: bold}
+
+.book_list{display: table; width:100%;margin: 20px 0;border-top:1px solid #e6e7e9;border-bottom:1px solid #e6e7e9;padding-top: 10px}
+.one_book{display: inline-block; margin: 0 10px 30px 0;width:20%;vertical-align: top}
+.one_field{display: table}
+.field_name, .field_value{display: inline-block}
+.field_name{font-weight: bold;margin-right: 10px}
+.one_book .submit_button, .inner_form .submit_button{margin-bottom: 0;width: 237px;padding: 5px 30px;border: 2px solid #f50c0c;color:#000;text-align: center;text-decoration: none}
+.one_book .submit_button:hover, .inner_form .submit_button:hover{border-color: #f50c0c;background: #f50c0c;color:#fff;text-decoration: none}
+
+.inner_form{margin: 35px 0}
+.inner_form p{font-weight: bolder; width: 100px;display: inline-block;margin-right: 10px;vertical-align: middle}
+.inner_form select, .inner_form input[type="text"] {display: inline-block;clear: both;min-width: 190px;height: 30px;margin-bottom: 20px;vertical-align: middle}
+.inner_form .checkbox_el{display:inline-block;vertical-align: middle}
+.inner_form select{min-width: 190px}
+
+.avatar{float: left;width: 40%}
+.name{font-weight: bold;font-size: 18px;display: table}
+.info_part{width: 58%;float: right;}
+.author_list{width: 30%}
+
+.info_message{font-size: 18px;color:green;margin: 10px 0}
+
+.footer{padding: 0px 20px 10px; background: #3870ff;width:100%;height: 60px;position: relative;color:#fff}
+.footer .copyright{padding-top: 20px}
